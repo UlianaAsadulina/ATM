@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ATM Mashine</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="terminal">
+            <div class="screen">
+                <div class="messageArea">
+                    <h1>Welcome!</h1>
+                    <p class="textLine" >Insert your card in the  blue card slot get start.</p>
+                    <input type="hidden" value="" class="inputPIN">
+                    <p class="alert"></p>
+                </div>                
+            </div>
+            <div class="btnContainer">
+                <button class="btn" id="btn1">withdraw</button>
+                <button class="btn" id="btn2">deposit</button>
+                <button class="btn" id="btn3">balance</button>
+                <button class="btn" id="btn4">cancel</button>
+            </div>
+            <div class="numPad">
+                    <div>
+                        <button class="numBtn" onclick="addNumber (7)">7</button>
+                        <button class="numBtn" onclick="addNumber (8)">8</button>
+                        <button class="numBtn" onclick="addNumber (9)">9</button>
+                    </div>
+                    <div>
+                        <button class="numBtn" onclick="addNumber (4)">4</button>
+                        <button class="numBtn" onclick="addNumber (5)">5</button>
+                        <button class="numBtn" onclick="addNumber (6)">6</button>
+                    </div>
+                    <div>
+                        <button class="numBtn" onclick="addNumber (1)">1</button>
+                        <button class="numBtn" onclick="addNumber (2)">2</button>
+                        <button class="numBtn" onclick="addNumber (3)">3</button>
+                    </div>
+                    <div>
+                        <button class="numBtn"  onclick="addNumber (0)">0</button>
+                        <button class="numBtn" onclick="addNumber ('.')">.</button>
+                        <button class="numBtn" id="clear" >C</button>
+                    </div>
+                    <div>
+                        <button id="numEnter" >ENTER</button>
+                    </div>
+            </div>
+            
+            <div class="moneyArea">
+                <div class="cardSlot">
+                    <div class="wind"></div>
+                </div>
+                <div class="moneySlot">
+                    <div class="wind"></div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+.terminal {
+    background-color: gainsboro;
+    border: solid gainsboro;
+    border-radius: 5px;
+    margin: 20px 50px 50px 20px;
+    height: 700px;
+    width: 400px;
+}
+
+.screen {
+    border: solid grey;
+    border-radius: 5px;
+    height: 300px;
+    margin: 15px;
+}
+
+.messageArea {
+    background-color: white;
+    height: 270px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.pin {
+    color: rgba(19, 140, 211, 0.877);
+}
+
+
+
+
+.btnContainer {
+    display: flex;
+    padding: 15px;
+}
+ 
+.btn {
+    background-color: gray;
+    border: solid gray;
+    border-radius: 10%;
+    color: white;
+    height: 20px;
+    width: 20%;
+    margin: 10px;
+
+}
+.numPad  {
+    width: 200px ;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.numBtn {
+    width: 40px ;
+    height: 25px;
+    font-size: 10pt;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#numEnter {
+    width: 90px ;
+    height: 25px;
+    font-size: 10pt;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.moneyArea {
+    display: flex;
+    padding: 20px;
+    align-content: end;
+}
+
+.cardSlot   {
+    background-color: rgba(19, 140, 211, 0.877);
+    border: solid gray;
+    border-radius: 50%;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+
+}
+
+.cardInside   {
+    background-color: gray;
+    border: solid gray;
+    border-radius: 50%;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+
+}
+
+.moneySlot {
+    background-color: gray;
+    border: solid gray;
+    border-radius: 5%;
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+
+}
+
+.moneyInside {
+    background-color:rgba(136, 42, 224, 0.925);
+    border: solid gray;
+    border-radius: 5%;
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+
+}
+
+.wind {
+    border: solid black;
+    width: 50%;
+    margin: 20px 35px 20px 35px;
+    justify-items: center;
+}
